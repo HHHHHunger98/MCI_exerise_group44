@@ -36,7 +36,7 @@
 
 - Use case of registration login and logout
 
-@startuml
+```plantuml
 left to right direction
 skinparam packageStyle rectangle
 actor Benutzer
@@ -45,7 +45,7 @@ rectangle Anmelden_Login_Logout_System {
 	Benutzer --> (log in)
 	Benutzer --> (log out)
 }
-@enduml
+```
 
 - Use case of enter a room
 
