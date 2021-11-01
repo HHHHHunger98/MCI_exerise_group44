@@ -36,7 +36,7 @@
 
 - Use case of registration login and logout
 
-```plantuml
+@startuml
 left to right direction
 skinparam packageStyle rectangle
 actor Benutzer
@@ -45,7 +45,7 @@ rectangle Anmelden_Login_Logout_System {
 	Benutzer --> (log in)
 	Benutzer --> (log out)
 }
-```
+@enduml
 
 - Use case of enter a room
 
@@ -91,18 +91,4 @@ registration --> [input user name]
 registration --> [input pwd]
 registration --> [click "register" button]
 @enduml
-
-@startwbs
-* Business Process Modelling WBS
-** Launch the project
-*** Complete Stakeholder Research
-*** Initial Implementation Plan
-** Design phase
-*** Model of AsIs Processes Completed
-**** Model of AsIs Processes Completed1
-**** Model of AsIs Processes Completed2
-*** Measure AsIs performance metrics
-*** Identify Quick Wins
-** Complete innovate phase
-@endwbs
 
